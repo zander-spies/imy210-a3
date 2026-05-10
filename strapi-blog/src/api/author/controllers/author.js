@@ -1,0 +1,4 @@
+// Spies u25033931
+'use strict';
+const { createCoreController } = require('@strapi/strapi').factories;
+module.exports = createCoreController('api::author.author');
